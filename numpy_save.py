@@ -20,7 +20,7 @@ def f():
     a1.append(quest)
     a2.append(ans)
     return a1, a2
-for i in range(50):
+for i in range(1000000):
     print(i)
     f()
 
